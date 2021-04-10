@@ -5,7 +5,6 @@ return array (
   array (
 
     'frontName' => 'admin',
-    
   ),
   'crypt' => 
   array (
