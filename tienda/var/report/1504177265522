@@ -1,0 +1,5 @@
+a:4:{i:0;s:139:"Notice: Trying to access array offset on value of type null in C:\xampp\htdocs\morelos\vendor\magento\framework\App\AreaList.php on line 75";i:1;s:550:"#0 C:\xampp\htdocs\morelos\vendor\magento\framework\App\AreaList.php(75): Magento\Framework\App\ErrorHandler->handler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\morelos\vendor\magento\framework\App\Http.php(130): Magento\Framework\App\AreaList->getCodeByFrontName('admin')
+#2 C:\xampp\htdocs\morelos\vendor\magento\framework\App\Bootstrap.php(258): Magento\Framework\App\Http->launch()
+#3 C:\xampp\htdocs\morelos\pub\index.php(37): Magento\Framework\App\Bootstrap->run(Object(Magento\Framework\App\Http))
+#4 {main}";s:3:"url";s:18:"/morelos/pub/admin";s:11:"script_name";s:22:"/morelos/pub/index.php";}
