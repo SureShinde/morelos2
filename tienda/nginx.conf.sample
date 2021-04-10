@@ -1,10 +1,10 @@
 ## Example configuration:
-# upstream fastcgi_backend {
-#    # use tcp connection
-#    # server  127.0.0.1:9000;
-#    # or socket
-#    server   unix:/var/run/php5-fpm.sock;
-# }
+upstream fastcgi_backend {
+    # use tcp connection
+    # server  127.0.0.1:9000;
+    # or socket
+    server   unix:/var/run/php5-fpm.sock;
+ }
 # server {
 #    listen 80;
 #    server_name mage.dev;
