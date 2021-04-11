@@ -125,6 +125,7 @@ return array(
     'd04d5084d3db908d3544ed506541866a' => $vendorDir . '/magento/theme-adminhtml-backend/registration.php',
     '7102f9cf0d2c08bc731a7e185c1c8bfc' => $vendorDir . '/magento/theme-frontend-luma/registration.php',
     '6b5b87bda6fedcf6ef8605219c8b67f2' => $vendorDir . '/mageplaza/module-core/registration.php',
+    '6faaf700047e3ad2a689e23347b36ccd' => $vendorDir . '/fasaro/magento2-es_mx-language-pack/registration.php',
     'bfcd7b977e821ec6d1fec907ec0c0af8' => $vendorDir . '/mageplaza/magento-2-spanish-language-pack/registration.php',
     'b4cf39431a4b949eea8aa69ebb3d39da' => $baseDir . '/app/etc/NonComposerComponentRegistration.php',
 );

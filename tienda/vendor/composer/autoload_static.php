@@ -126,6 +126,7 @@ class ComposerStaticInit5ba3f69c1f7e17c28be7126ae9ebd505
         'd04d5084d3db908d3544ed506541866a' => __DIR__ . '/..' . '/magento/theme-adminhtml-backend/registration.php',
         '7102f9cf0d2c08bc731a7e185c1c8bfc' => __DIR__ . '/..' . '/magento/theme-frontend-luma/registration.php',
         '6b5b87bda6fedcf6ef8605219c8b67f2' => __DIR__ . '/..' . '/mageplaza/module-core/registration.php',
+        '6faaf700047e3ad2a689e23347b36ccd' => __DIR__ . '/..' . '/fasaro/magento2-es_mx-language-pack/registration.php',
         'bfcd7b977e821ec6d1fec907ec0c0af8' => __DIR__ . '/..' . '/mageplaza/magento-2-spanish-language-pack/registration.php',
         'b4cf39431a4b949eea8aa69ebb3d39da' => __DIR__ . '/../..' . '/app/etc/NonComposerComponentRegistration.php',
     );

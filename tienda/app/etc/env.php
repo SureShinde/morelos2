@@ -1,9 +1,7 @@
 <?php
-
 return array (
   'backend' => 
   array (
-
     'frontName' => 'admin',
   ),
   'crypt' => 
@@ -19,8 +17,7 @@ return array (
     'table_prefix' => '',
     'connection' => 
     array (
-      'default' =>
-
+      'default' => 
       array (
         'host' => '127.0.0.1',
         'dbname' => 'morelos',

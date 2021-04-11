@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "453c0c09ed9e46b211165a36e3110139",
+    "content-hash": "3005998dc73d0b1c29dc91fe431ebb31",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -425,6 +425,36 @@
                 }
             ],
             "time": "2020-12-03T16:04:16+00:00"
+        },
+        {
+            "name": "fasaro/magento2-es_mx-language-pack",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fasaro/magento2-es_mx-language-pack.git",
+                "reference": "72540b57de501fc2ea404ab306e039363928c9a1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fasaro/magento2-es_mx-language-pack/zipball/72540b57de501fc2ea404ab306e039363928c9a1",
+                "reference": "72540b57de501fc2ea404ab306e039363928c9a1",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Spanish (Mexico) language package for Magento 2",
+            "time": "2021-01-09T18:50:04+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -5574,16 +5604,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.30",
+            "version": "2.0.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "136b9ca7eebef78be14abf90d65c5e57b6bc5d36"
+                "reference": "233a920cb38636a43b18d428f9a8db1f0a1a08f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/136b9ca7eebef78be14abf90d65c5e57b6bc5d36",
-                "reference": "136b9ca7eebef78be14abf90d65c5e57b6bc5d36",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/233a920cb38636a43b18d428f9a8db1f0a1a08f4",
+                "reference": "233a920cb38636a43b18d428f9a8db1f0a1a08f4",
                 "shasum": ""
             },
             "require": {
@@ -5675,7 +5705,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-12-17T05:42:04+00:00"
+            "time": "2021-04-06T13:56:45+00:00"
         },
         {
             "name": "psr/log",
@@ -9302,6 +9332,7 @@
     "stability-flags": {
         "composer/composer": 15,
         "mageplaza/magento-2-spanish-language-pack": 20,
+        "fasaro/magento2-es_mx-language-pack": 20,
         "phpmd/phpmd": 0
     },
     "prefer-stable": true,
